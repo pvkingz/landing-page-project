@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: green;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 60px 12px;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
