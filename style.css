@@ -4,6 +4,22 @@
 body {
     margin: 0;
 }
+/* Elements */
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900px;
+}
+
+p {
+    font-size: 18px;
+}
+
 
 .nav-bar {
     background-color: green;
@@ -34,7 +50,16 @@ ul {
 
 /* Main Hero */
 
+.hero-background {
+    background-image: url(https://media2.giphy.com/media/LqsGKpRRq2yFMxdzFt/giphy.gif?cid=ecf05e47nyftmqaia4fore1tg1g31gkp1nwbp79rm8eokz4x&rid=giphy.gif&ct=ghttps://media2.giphy.com/media/LqsGKpRRq2yFMxdzFt/giphy.gif?cid=ecf05e47nyftmqaia4fore1tg1g31gkp1nwbp79rm8eokz4x&rid=giphy.gif&ct=ghttps://media2.giphy.com/media/LqsGKpRRq2yFMxdzFt/giphy.gif?cid=ecf05e47nyftmqaia4fore1tg1g31gkp1nwbp79rm8eokz4x&rid=giphy.gif&ct=g);
+    background-size: cover;
+    background-position: center center;
+    height: 75vh;
+}
 .hero {
     display: flex;
     padding: 12px 100px 12px;
+    justify-content: center;
+    align-items: center;
 }
+
