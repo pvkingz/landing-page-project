@@ -1,22 +1,40 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
 }
 
 .nav-bar {
     background-color: green;
+    justify-content: center;
+    display: flex;
 }
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 12px 60px 12px;
+    padding: 12px 100px 12px;
     align-items: center;
     font-size: 24px;
     font-weight: 900;
+    color: white;
+    
+}
+#logo {
+    width: 5%;
+    height: auto;
 }
 
 ul {
     list-style: none;
     display: flex;
-    gap: 32px;
+    gap: 64px;
+}
+
+/* Main Hero */
+
+.hero {
+    display: flex;
+    padding: 12px 100px 12px;
 }
