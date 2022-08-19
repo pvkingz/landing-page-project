@@ -20,9 +20,10 @@ p {
     font-size: 18px;
 }
 
+/* Nav header */
 
 .nav-bar {
-    background-color: green;
+    background-color: #808000;
     justify-content: center;
     display: flex;
 }
@@ -48,6 +49,7 @@ ul {
     gap: 64px;
 }
 
+
 /* Main Hero */
 
 .hero-background {
@@ -55,11 +57,45 @@ ul {
     background-size: cover;
     background-position: center center;
     height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero {
     display: flex;
     padding: 12px 100px 12px;
     justify-content: center;
+    align-items: center;
+    background-color:  rgba(100, 100, 100, 0.5);
+    color: white;
+    height: 75%;
+    border-radius: 25px;
+    gap: 62px;
+}
+
+#hero-info {
+    width: 450px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #808000;
+    padding: 18px 20px 18px;
+    color: white;
+    border: none;
+}
+
+/* Lean more header */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-con {
+    display: flex;
     align-items: center;
 }
 
